@@ -1,12 +1,306 @@
 {
+  "departments": [
+    {
+      "id": 1,
+      "name": "IT",
+      "description": "Information Technology",
+      "lastUpdateDateTime": ""
+    },
+    {
+      "id": 2,
+      "name": "Engineering",
+      "description": "Engineering",
+      "lastUpdateDateTime": ""
+    },
+    {
+      "id": 3,
+      "name": "Parks",
+      "description": "Parks",
+      "lastUpdateDateTime": ""
+    },
+    {
+      "id": 4,
+      "name": "CSG",
+      "description": "Community Services Groups",
+      "lastUpdateDateTime": ""
+    }
+  ],
+  "users": [
+    {
+      "isActive": true,
+      "isAdmin": true,
+      "startDate": "2021-03-09T18:40:04.001Z",
+      "endDate": "2021-03-25T07:00:00.000Z",
+      "lastUpdateDateTime": "2021-03-05T18:40:04.001Z",
+      "activeDirectoryId": "pbschm",
+      "firstName": "Stanley",
+      "lastName": "Mok",
+      "email": "adsfasdf@x.com",
+      "workPhoneNumber": "(___) ___-____",
+      "departmentId": 1,
+      "id": 1,
+      "gender": "other",
+      "department": {
+        "id": 1,
+        "name": "IT",
+        "description": "Information Technology",
+        "lastUpdateDateTime": ""
+      }
+    },
+    {
+      "isActive": true,
+      "isAdmin": false,
+      "startDate": "2021-03-05T18:40:04.001Z",
+      "endDate": null,
+      "lastUpdateDateTime": "2021-03-05T18:40:04.001Z",
+      "activeDirectoryId": "cgfph",
+      "firstName": "Fabian",
+      "lastName": "Hanggi",
+      "email": "adsfasdf@x.comddd",
+      "workPhoneNumber": "(555) 555-5555",
+      "departmentId": 0,
+      "id": 4,
+      "gender": "male"
+    },
+    {
+      "isActive": true,
+      "isAdmin": false,
+      "startDate": "2021-03-05T20:46:45.290Z",
+      "endDate": null,
+      "lastUpdateDateTime": "2021-03-05T20:46:45.291Z",
+      "activeDirectoryId": "cgsx",
+      "firstName": "Sandy",
+      "lastName": "Xian",
+      "email": "s@x.com",
+      "workPhoneNumber": "(666) 666-6666",
+      "departmentId": 0,
+      "id": 5
+    },
+    {
+      "isActive": true,
+      "isAdmin": false,
+      "startDate": "2021-03-11T20:17:03.681Z",
+      "endDate": null,
+      "lastUpdateDateTime": "2021-03-11T20:17:03.681Z",
+      "activeDirectoryId": "sdfsdfs",
+      "firstName": "sdf",
+      "lastName": "sdfs",
+      "email": "sss@x.com",
+      "workPhoneNumber": "(666) 666-6666",
+      "departmentId": 0,
+      "id": 6
+    }
+  ],
+  "userapplications": [
+    {
+      "user": {
+        "isActive": true,
+        "isAdmin": false,
+        "startDate": "2021-03-05T18:40:04.001Z",
+        "endDate": null,
+        "lastUpdateDateTime": "2021-03-05T18:40:04.001Z",
+        "activeDirectoryId": "cgfph",
+        "firstName": "Fabian",
+        "lastName": "Hanggi",
+        "email": "adsfasdf@x.com",
+        "workPhoneNumber": "(555) 555-5555",
+        "departmentId": 0,
+        "id": 4
+      },
+      "application": {
+        "id": 1,
+        "displayName": "CSG Web Viewer test",
+        "appInvSystem": "CSGWEBVIEW",
+        "appInvCompId": 477,
+        "urlPrd": "https://staffapp.city.vancouver.bc.ca/CsgWebViewer/Default.aspx",
+        "urlUat": "https://uatstaffapp.city.vancouver.bc.ca/CsgWebViewer/Default.aspx",
+        "urlDev": "https://devstaffapp.city.vancouver.bc.ca/CsgWebViewer/Default.aspx",
+        "isActive": true,
+        "lastUpdateDateTime": ""
+      },
+      "id": 7
+    },
+    {
+      "user": {
+        "isActive": true,
+        "isAdmin": false,
+        "startDate": "2021-03-05T20:46:45.290Z",
+        "endDate": null,
+        "lastUpdateDateTime": "2021-03-05T20:46:45.291Z",
+        "activeDirectoryId": "cgsx",
+        "firstName": "Sandy",
+        "lastName": "Xian",
+        "email": "s@x.com",
+        "workPhoneNumber": "(666) 666-6666",
+        "departmentId": 0,
+        "id": 5
+      },
+      "application": {
+        "displayName": "Business Licence",
+        "isActive": true,
+        "appInvSystem": "BL",
+        "appInvCompId": "780",
+        "urlPrd": "test",
+        "urlUat": "132",
+        "urlDev": "9a7sdf",
+        "id": 3
+      },
+      "id": 8
+    },
+    {
+      "user": {
+        "isActive": true,
+        "isAdmin": false,
+        "startDate": "2021-03-05T18:40:04.001Z",
+        "endDate": null,
+        "lastUpdateDateTime": "2021-03-05T18:40:04.001Z",
+        "activeDirectoryId": "cgfph",
+        "firstName": "Fabian",
+        "lastName": "Hanggi",
+        "email": "adsfasdf@x.com",
+        "workPhoneNumber": "(555) 555-5555",
+        "departmentId": 0,
+        "id": 4
+      },
+      "application": {
+        "displayName": "Nice App",
+        "appInvSystem": "NAPP",
+        "appInvCompId": "789",
+        "id": 2,
+        "urlPrd": "should be a url",
+        "urlUat": "should be a url",
+        "urlDev": "should be a url",
+        "isActive": true
+      },
+      "id": 10
+    },
+    {
+      "user": {
+        "isActive": true,
+        "isAdmin": true,
+        "startDate": "2021-03-05T18:40:04.001Z",
+        "endDate": "2021-03-27T07:00:00.000Z",
+        "lastUpdateDateTime": "2021-03-05T18:40:04.001Z",
+        "activeDirectoryId": "pbschm",
+        "firstName": "Stanley",
+        "lastName": "Mok",
+        "email": "adsfasdf@x.com",
+        "workPhoneNumber": "(555) 555-5555",
+        "departmentId": 2,
+        "id": 1,
+        "gender": "prefnotsay",
+        "department": {
+          "id": 2,
+          "name": "Engineering",
+          "description": "Engineering",
+          "lastUpdateDateTime": ""
+        }
+      },
+      "application": {
+        "id": 1,
+        "displayName": "CSG Web Viewer test",
+        "appInvSystem": "CSGWEBVIEW",
+        "appInvCompId": 477,
+        "urlPrd": "https://staffapp.city.vancouver.bc.ca/CsgWebViewer/Default.aspx",
+        "urlUat": "https://uatstaffapp.city.vancouver.bc.ca/CsgWebViewer/Default.aspx",
+        "urlDev": "https://devstaffapp.city.vancouver.bc.ca/CsgWebViewer/Default.aspx",
+        "isActive": true,
+        "lastUpdateDateTime": ""
+      },
+      "id": 11
+    },
+    {
+      "user": {
+        "isActive": true,
+        "isAdmin": true,
+        "startDate": "2021-03-05T18:40:04.001Z",
+        "endDate": "2021-03-27T07:00:00.000Z",
+        "lastUpdateDateTime": "2021-03-05T18:40:04.001Z",
+        "activeDirectoryId": "pbschm",
+        "firstName": "Stanley",
+        "lastName": "Mok",
+        "email": "adsfasdf@x.com",
+        "workPhoneNumber": "(555) 555-5555",
+        "departmentId": 2,
+        "id": 1,
+        "gender": "prefnotsay",
+        "department": {
+          "id": 2,
+          "name": "Engineering",
+          "description": "Engineering",
+          "lastUpdateDateTime": ""
+        }
+      },
+      "application": {
+        "displayName": "Business Licence",
+        "isActive": true,
+        "appInvSystem": "BL",
+        "appInvCompId": "780",
+        "urlPrd": "test",
+        "urlUat": "132",
+        "urlDev": "9a7sdf",
+        "id": 3
+      },
+      "id": 12
+    }
+  ],
+  "applications": [
+    {
+      "id": 1,
+      "displayName": "CSG Web Viewer",
+      "appInvSystem": "CSGWEBVIEW",
+      "appInvCompId": 477,
+      "urlPrd": "https://staffapp.city.vancouver.bc.ca/CsgWebViewer/Default.aspx",
+      "urlUat": "https://uatstaffapp.city.vancouver.bc.ca/CsgWebViewer/Default.aspx",
+      "urlDev": "https://devstaffapp.city.vancouver.bc.ca/CsgWebViewer/Default.aspx",
+      "isActive": true,
+      "lastUpdateDateTime": ""
+    },
+    {
+      "displayName": "Nice App such a happy  day",
+      "appInvSystem": "NAPP",
+      "appInvCompId": "999",
+      "id": 2,
+      "urlPrd": "is this updated",
+      "urlUat": "and this as well",
+      "urlDev": "and maybe enven  this",
+      "isActive": true
+    },
+    {
+      "displayName": "Business Licence ",
+      "isActive": true,
+      "appInvSystem": "BL",
+      "appInvCompId": "780",
+      "urlPrd": "test entered offline",
+      "urlUat": "132",
+      "urlDev": "9a7sdf",
+      "id": 3
+    }
+  ],
+  "servers": [],
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server-test",
+      "author": "typicode what"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment again",
+      "postId": 1
+    }
   ],
   "profile": {
     "name": "typicode"
